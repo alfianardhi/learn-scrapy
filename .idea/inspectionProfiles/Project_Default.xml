@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="app" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="web_app.app.SQLAlchemy" />
+          <option value="web_app.views.CKEditorField" />
+          <option value="web_app.models.Boolean" />
+          <option value="models.db" />
+          <option value="models.Page" />
+          <option value="models.Menu" />
+          <option value="views.PageModelView" />
+          <option value="web_app.scripts.initializedb.app" />
+          <option value="web_app.scripts.initializedb.create_app" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
